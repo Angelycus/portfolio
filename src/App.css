@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+:root {
+  --primary-white: #ffffff;
+  --primary-green: rgb(13, 196, 13);
+  --green-trans: rgb(13, 196, 13, 0.8);
+  --primary-black: #000000;
+}
+
+body {
+  font-family: "Press Start 2P", cursive;
+  background-color: black;
+  color: var(--primary-green) !important;
+  width: 95%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.background {
+  position: absolute !important;
+}
+
+.App {
+  text-align: center;
+  background-color: black;
+  color: var(--primary-white) !important;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.App-logo {
+  height: 4vmin;
+  pointer-events: none;
+}
+
+.App-logo2 {
+  height: 7vmin;
+  pointer-events: none;
+  padding-right: 1vh;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.navbar-custom {
+  background-color: black;
+}
+
+.navbar-brand,
+.navbar-nav > li > a {
+  display: inline-block;
+  font-size: small;
+  margin-left: 0.65rem;
+  margin-right: 0.65rem;
+  color: var(--primary-white) !important;
+}
+
+.navbar-nav > li > a.active,
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+  border-bottom: 0.1875rem solid var(--primary-green) !important;
+}
+
+.App-header {
+  font-size: x-small;
+  color: var(--primary-white) !important;
+  padding-left: 0.65rem;
+  margin: auto;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#coverId {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 90%;
+  color: var(--primary-green) !important;
+}
+#aboutId {
+  margin-top: 3vh;
+}
+
+.header-wraper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  padding: 0;
+  width: 90%;
+}
+
+.main-info {
+  color: var(--primary-green) !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  width: 60%;
+}
+
+.coverImg {
+  width: 30%;
+  display: flex;
+  pointer-events: none;
+  margin: auto;
+  z-index: 1;
+}
+
+.nino {
+  width: 95%;
+  display: block;
+}
+
+.typed-text {
+  padding: 2vh;
+  color: var(--primary-white);
+}
+
+.skills-table {
+  min-height: 100vh;
+  margin: 0 auto;
+  width: 100%;
+  display: block;
+  padding: 0;
+}
+
+.logopic {
+  width: 40px;
+}
+
+.list-group {
+  width: 60vh;
+  margin: 0 auto;
+  padding: 0;
+  text-align: left;
+  font-size: larger;
+}
+
+.list-group-item {
+  color: var(--primary-black) !important;
+}
+
+.services-cards {
+  margin: 0 auto;
+  padding: 0;
+  width: 70%;
+  min-height: 100vh;
+  display: block;
+  margin-top: 2vh;
+}
+
+.card {
+  padding: 1vh;
+  margin: 1vh;
+}
+
+.card-text {
+  color: black;
+  text-align: left;
+}
+
+.projects {
+  margin: 0 auto;
+  padding: 0;
+  min-height: 100vh;
+  margin-top: 5vh;
+}
+
+.d-block {
+  margin: 0 auto;
+  border-style: ridge;
+  border-color: var(--primary-green);
+  border-radius: 10%;
+}
+
+.carousel-caption {
+  margin: 0 auto;
+  color: var(--primary-black);
+  background: var(--green-trans);
+  width: 70%;
+}
+
+.carousel-caption > p > a {
+  color: var(--primary-black) !important;
+}
+
+.carousel-caption > p > a:hover {
+  text-transform: uppercase;
+  color: var(--primary-white) !important;
+}
+
+.about-table {
+  min-height: 90vh;
+  margin: 0 auto;
+  padding: 0;
+  width: 70%;
+  display: block;
+}
+
+.text {
+  width: 100%;
+  color: var(--primary-white) !important;
+  margin: 0 auto;
+  display: block;
+  text-align: left;
+}
+
+.text > p {
+  padding: 1vh;
+}
+
+.text > p > a {
+  color: var(--primary-white) !important;
+  text-decoration: none;
+}
+
+.text > p > a:hover {
+  color: var(--primary-green) !important;
+}
+
+.footer {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: var(--primary-black) !important;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
