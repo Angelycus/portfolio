@@ -17,8 +17,8 @@ const Cover = () => {
 </Parallax>
 </div>
 
-<div className="coverImg d-none d-lg-block">
-<Parallax speed={ -10 }>
+<div className="coverImg">
+<Parallax speed={ -10 } className="parapic">
 <img src={nino} alt="nino" className="nino" />
 </Parallax>
 </div>

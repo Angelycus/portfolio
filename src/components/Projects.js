@@ -29,51 +29,51 @@ const Projects = () => {
   <div className="carousel-inner">
     <div className="carousel-item active">
       <img src={CK} className="d-block w-100" alt="CK" />
-      <div className="carousel-caption d-none d-md-block">
-        <h6>A simple brochure site for a small restaurant (HTML, CSS)</h6>
+      <div className="carousel-caption">
+        <p>A simple brochure site for a small restaurant (HTML, CSS)</p>
         <p>Links: <a href="http://chaukeebrochure.atwebpages.com" target="_blank">Site</a> <a href="https://github.com/Angelycus/restaurant-brochure.git" target="_blank">Github</a></p>
       </div>
     </div>
     <div className="carousel-item">
       <img src={crypto} className="d-block w-100" alt="blog" />
-      <div className="carousel-caption d-none d-md-block">
-        <h6>Crypto Price Grab in real-time with connection to outside API (HTML, CSS, JavaScript)</h6>
+      <div className="carousel-caption">
+        <p>Crypto Price Grab in real-time with connection to outside API (HTML, CSS, JavaScript)</p>
         <p>Links: <a href="http://crypto-api.atwebpages.com/" target="_blank">Site</a> <a href="https://github.com/Angelycus/crypto-web-api-app.git" target="_blank">Github</a></p>
       </div>
     </div>
     <div className="carousel-item">
       <img src={blog} className="d-block w-100" alt="blog" />
-      <div className="carousel-caption d-none d-md-block">
-        <h6>Photo Blog Site (WordPress)</h6>
+      <div className="carousel-caption">
+        <p>Photo Blog Site (WordPress)</p>
         <p>Links: <a href="https://nick437478807.wordpress.com/" target="_blank">Site</a></p>
       </div>
     </div>
     <div className="carousel-item">
       <img src={SMS} className="d-block w-100" alt="SMS" />
-      <div className="carousel-caption d-none d-md-block">
-        <h6>E-commerce Online Store (WordPress, WooCommerce)</h6>
+      <div className="carousel-caption">
+        <p>E-commerce Online Store (WordPress, WooCommerce)</p>
         <p>Links: <a href="https://smartmobilesolution.hr/" target="_blank">Site</a></p>
       </div>
     </div>
     <div className="carousel-item">
       <img src={rusenje} className="d-block w-100" alt="blog" />
-      <div className="carousel-caption d-none d-md-block">
-        <h6>Brochure site for a local business (Tilda)</h6>
+      <div className="carousel-caption">
+        <p>Brochure site for a local business (Tilda)</p>
         <p>Links: <a href="http://rusenjedrveca.tilda.ws/" target="_blank">Site</a></p>
       </div>
     </div>
     <div className="carousel-item">
       <img src={YT} className="d-block w-100" alt="blog" />
-      <div className="carousel-caption d-none d-md-block">
-        <h6>YouTube channel about basketball (Adobe Premiere Pro)</h6>
+      <div className="carousel-caption">
+        <p>YouTube channel about basketball (Adobe Premiere Pro)</p>
         <p>Links: <a href="https://www.youtube.com/channel/UCjP-k1MZh5W9Zs_Ii0tUYRQ" target="_blank">Site</a></p>
       </div>
     </div>
     <div className="carousel-item">
       <img src={port} className="d-block w-100" alt="blog" />
-      <div className="carousel-caption d-none d-md-block">
-        <h6>This portfolio site (React.js, Bootstrap 5, CSS, JavaScript)</h6>
-        <p>Links: <a href="#" target="_blank">Github</a></p>
+      <div className="carousel-caption">
+        <p>This portfolio site (React.js, Bootstrap 5, CSS, JavaScript)</p>
+        <p>Links: <a href="https://github.com/Angelycus/portfolio.git" target="_blank">Github</a></p>
       </div>
     </div>
   </div>

@@ -46,6 +46,13 @@ body {
 
 .navbar-custom {
   background-color: black;
+  width: 100%;
+}
+
+.container-fluid {
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar-brand,
@@ -97,8 +104,11 @@ body {
   width: 90%;
   color: var(--primary-green) !important;
 }
+#skillsId,
+#projectsId,
+#servicesId,
 #aboutId {
-  margin-top: 3vh;
+  margin-top: 10vh;
 }
 
 .header-wraper {
@@ -140,7 +150,6 @@ body {
 }
 
 .skills-table {
-  min-height: 100vh;
   margin: 0 auto;
   width: 100%;
   display: block;
@@ -152,11 +161,12 @@ body {
 }
 
 .list-group {
-  width: 60vh;
+  width: 50vh;
   margin: 0 auto;
   padding: 0;
   text-align: left;
-  font-size: larger;
+
+  display: block;
 }
 
 .list-group-item {
@@ -167,7 +177,7 @@ body {
   margin: 0 auto;
   padding: 0;
   width: 70%;
-  min-height: 100vh;
+
   display: block;
   margin-top: 2vh;
 }
@@ -175,6 +185,10 @@ body {
 .card {
   padding: 1vh;
   margin: 1vh;
+}
+
+.card-title {
+  font-size: medium;
 }
 
 .card-text {
@@ -185,7 +199,7 @@ body {
 .projects {
   margin: 0 auto;
   padding: 0;
-  min-height: 100vh;
+
   margin-top: 5vh;
 }
 
@@ -213,11 +227,11 @@ body {
 }
 
 .about-table {
-  min-height: 90vh;
   margin: 0 auto;
   padding: 0;
   width: 70%;
   display: block;
+  min-height: 100vh;
 }
 
 .text {
@@ -249,4 +263,18 @@ body {
   bottom: 0;
   left: 0;
   width: 100%;
+}
+
+@media all and (max-width: 500px) {
+  body {
+    font-size: small;
+  }
+
+  .coverImg {
+    width: 100%;
+  }
+
+  .parapic {
+    transform: initial !important;
+  }
 }

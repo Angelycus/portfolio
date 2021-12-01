@@ -15,7 +15,7 @@ const Services = () => {
   <div className="card text-white bg-success border-light h-100">
   <img src={coding} alt="coding" />
     <div className="card-body">
-      <h5 className="card-title">Website Developing</h5>
+      <p className="card-title">Website Developing</p>
       <p className="card-text">Creating awesome websites with variety of frameworks and platforms that best suits Your needs.</p>
       </div>
       </div>
@@ -24,7 +24,7 @@ const Services = () => {
   <div className="card text-white bg-success border-light h-100">
   <img src={administrating} alt="administrating" />
     <div className="card-body">
-      <h5 className="card-title">Website Administrating</h5>
+      <p className="card-title">Website Administrating</p>
       <p className="card-text">Administrating existing websites and optimizing them, adding Google Ads campaings or adding products.</p>
       </div>
       </div>
@@ -33,7 +33,7 @@ const Services = () => {
   <div className="card text-white bg-success border-light h-100">
   <img src={videoedit} alt="videoedit" />
     <div className="card-body">
-      <h5 className="card-title">Video Editing</h5>
+      <p className="card-title">Video Editing</p>
       <p className="card-text">Creating videos from Your footage, audio mixing and formatting for YouTube, Instagram/Facebook Story etc.</p>
     </div>
     </div>
