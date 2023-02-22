@@ -31,14 +31,14 @@ const Projects = () => {
       <img src={CK} className="d-block w-100" alt="CK" />
       <div className="carousel-caption">
         <p>A simple brochure site for a small restaurant (HTML, CSS)</p>
-        <p>Links: <a href="http://chaukeebrochure.atwebpages.com" target="_blank">Site</a> <a href="https://github.com/Angelycus/restaurant-brochure.git" target="_blank">Github</a></p>
+        <p>Links: <a href="https://hkrestaurant.netlify.app/index.html" target="_blank">Site</a> <a href="https://github.com/Angelycus/restaurant-brochure.git" target="_blank">Github</a></p>
       </div>
     </div>
     <div className="carousel-item">
       <img src={crypto} className="d-block w-100" alt="blog" />
       <div className="carousel-caption">
         <p>Crypto Price Grab in real-time with connection to outside API (HTML, CSS, JavaScript)</p>
-        <p>Links: <a href="http://crypto-api.atwebpages.com/" target="_blank">Site</a> <a href="https://github.com/Angelycus/crypto-web-api-app.git" target="_blank">Github</a></p>
+        <p>Links: <a href="https://cryptopricegrab.netlify.app/" target="_blank">Site</a> <a href="https://github.com/Angelycus/crypto-web-api-app.git" target="_blank">Github</a></p>
       </div>
     </div>
     <div className="carousel-item">
